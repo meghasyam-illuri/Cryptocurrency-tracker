@@ -1,0 +1,116 @@
+/* Write your CSS code here */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .crypto-title {
+    color: #00e7ff;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .crypto-title {
+      font-size: 45px;
+    }
+  }
+  
+  .crypto-image {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .crypto-image {
+      width: 60%;
+    }
+  }
+  
+  .crypto-list-container {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    border: 4px solid #00e7ff;
+    border-radius: 8px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .crypto-list-container {
+      align-self: center;
+      width: 70%;
+    }
+  }
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00e7ff16;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .nav-bar {
+      padding-left: 30px;
+    }
+  }
+  
+  .coin-title {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .coin-title {
+      font-size: 20px;
+    }
+  }
+  
+  .currency-title-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .currency-title-container {
+      padding-right: 30px;
+    }
+  }
+  
+  .currency-title {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .currency-title {
+      font-size: 20px;
+    }
+  }
+  
+  .crypto-items-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .crypto-items-container {
+      padding-left: 30px;
+      padding-right: 40px;
+    }
+  }
+  
